@@ -1,0 +1,46 @@
+@import url('https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
+
+body {
+    font-family: var(--paragraph-font); 
+    max-width: 960px;
+    padding: 20;
+}
+:root {
+    --primary-color: #5386e4;
+    --secondary-color: #0b132b;
+    --accent1-color: #03f7eb;
+    --accent2-color: #ece8ef;
+
+    --heading-font: '______', Roboto;
+    --paragraph-font: '______' Montserrat;
+
+    --nav-background-color: #5386e4;
+    ---nav-link-color:#03f7eb;
+    ---nav-hover-link-color: #0b132b;
+    ---nav-hover-background-color: #ece8ef;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--primary-color)
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+p {
+    padding:25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font: size 1.2em;
+    display: flex;
+}
+nav a:link, nav a:visited {
+    color:var(---nav-link-color);
+}
+
+nav a:hover {
+    color:var(---nav-hover-link-color);
+    background-color: var(---nav-hover-background-color);
+}
