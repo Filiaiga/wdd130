@@ -15,9 +15,9 @@ body {
     --paragraph-font: '______' Montserrat;
 
     --nav-background-color: #5386e4;
-    ---nav-link-color: #0b132b;
-    ---nav-hover-link-color: #03f7eb;
-    ---nav-hover-background-color: #ece8ef;
+    --nav-link-color: #0b132b;
+    --nav-hover-link-color: #03f7eb;
+    --nav-hover-background-color: #ece8ef;
 
 }
 h1, h2, h3, h4, h5, h6 {
