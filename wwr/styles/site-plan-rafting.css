@@ -3,7 +3,7 @@
 body {
     font-family: var(--paragraph-font); 
     max-width: 960px;
-    padding: 20;
+    padding: 20px;
 }
 :root {
     --primary-color: #5386e4;
@@ -15,8 +15,8 @@ body {
     --paragraph-font: '______' Montserrat;
 
     --nav-background-color: #5386e4;
-    ---nav-link-color:#03f7eb;
-    ---nav-hover-link-color: #0b132b;
+    ---nav-link-color: #0b132b;
+    ---nav-hover-link-color: #03f7eb;
     ---nav-hover-background-color: #ece8ef;
 
 }
@@ -33,14 +33,14 @@ p {
 }
 nav {
     background-color: var(--nav-background-color);
-    font: size 1.2em;
+    font-size: 1.2em;
     display: flex;
 }
 nav a:link, nav a:visited {
-    color:var(---nav-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color:var(---nav-hover-link-color);
-    background-color: var(---nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
