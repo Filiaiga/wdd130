@@ -3,6 +3,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
+
 }
 
 :root {
@@ -13,65 +14,138 @@
 
     --heading-font: '______', Roboto;
     --paragraph-font: '______', sans-serif;
+
 }
+body {
+    background-color: lightgrey;
+}
+
 h2 {
     font-family: var(--heading-font);
     color:black;
-}
+    text-align:center;
 
-p{
-    height:auto
 }
-.hero h1 {
+p{  
+    margin-bottom: 0;
+    margin-top: 0;
+    padding:10px;
+}
+h1{
     position:absolute;
     font-family: "Roboto", sans-serif;
-    font-size:xx-large;
+    font-size:2rem;
     font-style: normal;
     color:black;
     text-align: center;
     top: 50px;
     bottom:80px;
-    opacity: 1;
+
 }
 
 .hero {
     position:relative;
     display:flex;
-    padding:20px;
-    justify-content: center;
+    align-items:center;
+    padding:10px;
+    justify-content:center;
     clear: both;
 }
 .hero img{
     background-color: #bbb;
     display:block;
     width: 100%;
-    height: auto   
-}
-.child h2{
-    font-size: small;
+    height: 600px; 
+    
 }
 .child {
     position:absolute;
-    padding:15%;
+    padding:10%;
     float: right;
-    justify-content: right;
-
-    
+    justify-content: right;    
 }
 .child img {
     float: right;
-    width:30%
+    width:20%;
+    height: 40%;
+    display:flex
+    
 }
 .child p{
     color:white;
 }
-section img {
-    display:inline-block;
-    width: 50%;
-}    
-section .alt {
-    color: var(--primary-colors)
+section h2{
+    text-align:center;
+    clear:both;
+    padding:1rem;
 }
-.sociallinks a{
+section{
+   position: relative;
+    text-indent: 0;
+    margin: 0.5em;
+    display:flex;
+    border: thin solid black;
+    
+}
+section img {
+    display:flex;
+    border:3px solid grey;
+    max-width: 25rem;
+    max-height: 13rem;
+    max-width: 5rem;
+    padding:.5%;
+    
+
+}
+figcaption {
+    display:flex;
+    padding: 1px;
+    text-align: center;
+    font-size: large;
+
+}
+nav a {
+    color: black;
+    padding: 0.5rem;
     text-decoration: none;
+    font-weight: 700;
+    border: 2px solid black;
+    font-size:120%;
+    justify-content: right;
+   
+}
+.sociallinks{
+    justify-content: right;
+    text-align: right;
+    background-color: steelblue;
+    
+}
+.sociallinks a {
+    border: none;
+    justify-content:right;
+
+}
+header,main,footer {
+    margin: 2rem;
+    grid-column: 2;
+
+}
+body{
+    font-size: 25px;
+
+}
+ul {
+    background-color:steelblue;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.box{
+    width:100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: center;
+
 }
