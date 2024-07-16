@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+<header>
+    <h1> WDD 130 | Asinate Filiaga | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">
+                <label for="Asinate Filiaga"> Full Name:</label>
+                <input type="text" id="Asinate Filiaga" name="Asinate Filiaga">
+            </div>
+            <div class="form-item column2">
+                <label for="Afili">Email:</label>
+                <input type="asinate_f@yahoo.com" id="Afili" name="Afili">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="form-item column1">
+                <legend>Questions</legend>
+                <label for="browser"> What is your favorite internet browser?</label>
+            </div>
+            <select id="browser" name="browser">
+                <option value="'chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="Other">Other</option>
+            </select>
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback"> List the places you have lived:</label>
+            </div>
+            <textarea id="feedback"name="feedback" rows="4" placeholder="Cleveland Texas, Rancho Cucamonga 
+            California, Missouri Independence, San Antonio Texas"></textarea>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+    <p>©2024 | HTML Form - User Poll Activity | Asinate Filiaga</p>
+</footer>
+</body>
+</html>
