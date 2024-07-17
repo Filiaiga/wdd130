@@ -159,6 +159,6 @@ ul {
 }
 fieldset {
     margin: 0 auto;
-    width: 0 auto;
+    width: auto;
     align-content: end;
 }
