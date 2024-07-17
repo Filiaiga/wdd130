@@ -92,7 +92,7 @@ section img {
     border:3px solid grey;
     max-width: 25rem;
     max-height: 13rem;
-    max-width: 5rem;
+    max-width: 9rem;
     padding:.5%;
     
 
@@ -112,6 +112,10 @@ nav a {
     border: 2px solid black;
     font-size:120%;
     justify-content: right;
+}
+header {
+    margin: 0 auto;
+    width: 650px;
    
 }
 .sociallinks{
@@ -148,4 +152,8 @@ ul {
     grid-template-columns:auto;
     justify-content: center;
 
+}
+.map {
+    border:0;
+    height:fit-content;
 }
