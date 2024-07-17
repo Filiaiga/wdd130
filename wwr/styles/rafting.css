@@ -157,3 +157,8 @@ ul {
     border:0;
     height:fit-content;
 }
+fieldset {
+    margin: 0 auto;
+    width: 0 auto;
+    align-content: end;
+}
